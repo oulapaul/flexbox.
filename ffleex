@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>flexbox</title>
+    <link rel="stylesheet" href="style.css"><>
+</head>
+<body>
+    <h1>FLEXBOX PROPERTIES</h1>
+    <div>
+    <div class="container">
+    <div>HEY</div>
+    <div>RANGER</div>
+    <div>COME</div>
+    <div>HOME</div>
+    <div>FOR</div>
+    <div>PARTY</div>
+    </div>
+</body>
+</html>
