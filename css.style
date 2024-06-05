@@ -1,0 +1,14 @@
+
+.container div{
+   background-color: cyan;
+   align-items: center;
+   margin: 10px; ; 
+   padding: 20px;
+   cursor: pointer;
+   flex-wrap: wrap;
+}
+.container{
+    justify-content: space-evenly;  
+display: flex;
+text-align:left;
+}
