@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>FLEXBOX PROPERTIES</h1>
+    <div>
+    <div class="container">
+    <div>HEY</div>
+    <div>RANGER</div>
+    <div>COME</div>
+    <div>HOME</div>
+    <div>FOR</div>
+    <div>PARTY</div>
+    <div>DURING</div>
+    <div>SUMMER</div>
+    <div>PERIOD</div>
+    </div>
+    <div>
+        <h2>CESNAR QUEKIN</h2>
+        <div class="container">
+    <div>CESNAR IS</div>
+    <div>FLYING BERT</div>
+    <div>GREEN CARRIER</div>
+    <div>TANK QUEEN</div>
+    <div>REMAIN</div>
+    <div>VIGILANT</div>
+    <div>AND</div>
+    <div>ARMOURED</div>
+    <div>CESBEE</div>
+    </div>
+</body>
+<footer>OULA@2024 COPYRIGHT RESERVED</footer>
+</html>
