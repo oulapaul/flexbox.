@@ -1,37 +1,102 @@
-
 .container div{
-   background-color: black;
-   align-items: right;
-   margin: 15px 15px;  
-   padding: 15px 15px;
-   cursor: pointer;
-   flex-wrap: wrap;
-}
-h1 {
-    color: crimson;
-    text-decoration: underline;
-    background-color: yellow ;
+    background-color: black;
+    align-items: right;
+    margin: 8px;  
+    padding: 15px;
     cursor: pointer;
+    flex-wrap: wrap;
+    display: block;
+    #menuTitle:hover{
+      text-decoration: underline;
+      .clicked{background-color: blue;}
+    }
+        }
+ h1 {
+     color: crimson;
+     text-decoration: underline;
+     background-color: yellow ;
+     cursor: pointer;
+ }
+ h2{
+     color: darkviolet;
+     text-decoration: underline;
+     background-color: chartreuse;
+     cursor: pointer;
+ }
+ .flex-container{
+    display: flex;
+    flex-direction: row;
+    @media screen {
+      flex-items-right,
+      flex-item-left{flex: 100%;}  
+    }
+ }
+ .container{
+     color: lawngreen;
+     justify-content: space-between;  
+ display: inline-flex;
+ gap: 2px 2px;
+ flex-wrap: wrap;
+ }
+ footer{
+     color: lawngreen;
+     background-color: darkgray;
+     cursor: pointer;
+     position: relative;
+     width: 100%;
+     height: 200%;
+ }
+@media only screen and (orientation:landscape) {
+ body {
+  background-color: orangered;
+ }
 }
-h2{
-    color: darkviolet;
-    text-decoration: underline;
-    background-color: chartreuse;
-    cursor: pointer;
+div.class{
+  padding: 100%;
+  column-span: all;
 }
-.container{
-    color: lawngreen;
-    justify-content: space-evenly;  
-display: inline-flex;
-gap: 2px 2px;
-flex-wrap: wrap;
+@media all and(display-mode: screen){
+  body{
+    margin: 10px;
+    border: 10px solid black;
+  }
 }
-footer{
-    color: lawngreen;
-    background-color: darkgray;
-    cursor: pointer;
-    position: relative;
-    width: 100%;
-    height: 200%;
+/* Base styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+
+.container {
+  flex: 1 1 200px; /* Grow, shrink, base width */
+  margin: 10px;
+  box-shadow: 0 4px 8px whitesmoke;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .container {
+    flex-basis: calc(50% - 20px); /* Two items per row */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .container {
+    flex-basis: calc(100% - 20px); /* One item per row */
+  }
+}
+/* Add styles for hover effect */
+#menuTitle:hover {
+  text-decoration: underline;
+}
+
+/* Add a class for the clicked state */
+.clicked {
+  background-color: blue; 
+}
+
+
+
 
