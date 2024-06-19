@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>flexbox</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+
+    <title>Home</title>
 </head>
 <body>
-    <h1>FLEXBOX PROPERTIES</h1>
+    <h1 id="menuTitle">FLEXBOX PROPERTIES</h1>
     <div>
-    <div class="container">
+    <div class="container" id="menuTitle">
     <div>HEY</div>
     <div>RANGER</div>
     <div>COME</div>
@@ -30,7 +33,12 @@
     <div>AND</div>
     <div>ARMOURED</div>
     <div>CESBEE</div>
-    </div>
+<footer> OULA@2024 COPYRIGHT RESERVED</footer>
+<script>
+    document.getElementById('menuTitle').addEventListener('click', function(underline) {
+        this.classList.toggle('clicked');
+    });
+</script>
+
 </body>
-<footer>OULA@2024 COPYRIGHT RESERVED</footer>
 </html>
